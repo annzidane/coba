@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import corpcommentImg from "@/public/eyecare.jpg";
+import rmtdevImg from "@/public/Surat-Desa.png";
+import wordanalyticsImg from "@/public/lautsista.png";
 
 export const links = [
   {
@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Alumni Kampus Mengajar Batch 4",
+    location: "Kendalsari, Pemalang",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Saya berpartisipasi dalam program Kampus Mengajar Batch 4 di Kendalsari, Pemalang. Program ini memungkinkan saya untuk mengajar di daerah sebagai bagian dari misi untuk meningkatkan akses dan mutu pendidikan. Pengalaman ini memperkaya pengetahuan saya tentang tantangan pendidikan yang ada di Indonesia.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Publisher dan Presented",
+    location: "Centive, Institut Teknologi Telkom Purwokerto",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Saya menjadi publisher jurnal dan presented di Centive, Institut Teknologi Telkom Purwokerto. Dengan judul jurnal Penerapan Gamifikasi pada Penilaian dan Pemeringkatan Transkrip Aktivitas Kemahasiswaan (TAK) Berbasis Mobile Android (Studi Kasus: Institut Teknologi Telkom Purwokerto)",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
+    date: "2023",
+  }, 
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Sertifikasi Junior Web Dev",
+    location: "BNSP Institut Teknologi Telkom Purwokerto",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "Saya berhasil meraih Sertifikasi Junior Web Developer setelah mengikuti pelatihan di Institut Teknologi Telkom Purwokerto.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  }, 
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Eye Care",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Aplikasi Eye Care adalah aplikasi mobile yang membantu menjaga kesehatan mata. Dibuat dengan Kotlin untuk Android dan Firebase untuk backend, menggunakan forward chaining untuk rekomendasi dan pengingat berdasarkan data pengguna.",
+    tags: ["Kotlin", "FireBase", "java"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Surat Desa",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Aplikasi surat desa dalah website untuk pengajuan surat keterangan dan surat pengantar desa secara online",
+    tags: ["Laravel", "HTML", "Boostrap", "Tailwind", "Mysql"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "BTS-Army",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Merupakan website untuk mendata alutsista, dimana website ini dibuat untuk mengugurkan tugas besar salah satu mata kuliah.",
+    tags: ["React", "Next.js", "SQL", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -88,20 +88,12 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Laravel",
+  "Flutter",
+  "Firebase",
+  "Kotlin",
 ] as const;
